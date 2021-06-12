@@ -1,0 +1,34 @@
+﻿1 
+mkdir linuxTask
+
+
+2 
+touch test testFile fileForTest testo Test-Testovich.bio
+
+
+rm ./*test*
+
+
+3 
+ln -s ../../../bin/pwd Link 
+./Link
+
+
+4 
+mkdir important
+touch 1,2,12,123,txt
+mv ??? /important
+
+
+5 
+env | grep LC >> file.txt
+
+
+6 
+locate code >> file.txt
+
+
+7 
+touch startStream 
+echo ’mpv udp://224.0.0.1:9999' >> startStream
+chmod a=x startStream
